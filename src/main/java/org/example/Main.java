@@ -7,7 +7,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         int num = input.nextInt();
         int[] arr = new int[num];
-        for (int i = 0; i < num; i++) {
+        for (int i = 0; i < arr.length; i++) {
             arr[i] = input.nextInt();
         }
         int min = findM(arr,num);
