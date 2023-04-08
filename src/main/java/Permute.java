@@ -1,4 +1,4 @@
-IOimport java.util.Scanner;
+import java.util.Scanner;
 
 class Permute {
     public static void main(String[] args) {
