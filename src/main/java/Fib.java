@@ -5,8 +5,8 @@ public class Fib {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int num = input.nextInt();
-        int Factor = Fib(num);
-        System.out.print(Factor);
+        int Fib = Fib(num);
+        System.out.print(Fib);
     }
 
     public static int Fib(int num) {
